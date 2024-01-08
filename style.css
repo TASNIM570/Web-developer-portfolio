@@ -160,12 +160,28 @@ main {
     color: #757575;
 }
 
+/* Resume seection styles */
 
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
 
+#resume-container{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
 
-
-
-
+.icon{
+    text-align: center;
+}
+.download-cv{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 9px 10px;
+}
 
 
 
