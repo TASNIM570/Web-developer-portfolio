@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d4f40e21fd.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="header">
@@ -32,8 +33,8 @@
           </p>
 
           <!-- <button class="btn-primary">Download CV</button> -->
-          <button class="btn-primary">Download Cv</button>
-          <button class="btn-primary">Contact Info</button>
+          <button class="btn-primary"><i class="fa-solid fa-download"></i>   Download Cv</button>
+          <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact Info</button>
         </div>
         <img class="profile-pic" src="images/hardy.png" alt="" />
       </div>
@@ -179,13 +180,34 @@
           </div> 
       </div>
       <div class="icon">
-        <button class="download-cv">Download CV</button></div>
+        <button class="download-cv"><i class="fa-solid fa-download"></i>
+            Download CV </button></div>
       </section>
 
     </main>
 
     <footer>
+    <div class="footer-column">
+      <h3 class="section-title">Lets Connect</h3>
+        <p class="section-description">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+
+        <div class="social-links">
+          <a href=""><img src="images/icons/facebook.png" alt=""></a>
+          <a href=""><img src="images/icons/twitter.png" alt=""></a>
+          <a href=""><img src="images/icons/insta.png" alt=""></a>
+        </div>
+    </div>
+    <div class="footer-column">
+      <h3 class="section-title">Lets Message me</h3>
     
+    <form class="contact" action="">
+      <input type="text" placeholder="Your name">
+      <input type="email" placeholder="Your email">
+      <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+    <button class="btn-primary" type="submit">Submit</button>
+    </form>
+  </div>
+
     </footer>
   </body>
 </html>
