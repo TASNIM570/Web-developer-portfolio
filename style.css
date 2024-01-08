@@ -11,6 +11,9 @@ body {
 .btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
+    padding: 6px 8px;
+    color: aliceblue;
+    font-size: 18px;
 }
 
 /* Nav related style */
@@ -39,11 +42,11 @@ nav li {
     margin-right: 50px;
 }
 
-button{
-    width: 85px;
+/* button{
+    width: 120px;
 height: 44px;
 flex-shrink: 0;
-}
+} */
 
 nav a {
     text-decoration: none;
@@ -54,18 +57,80 @@ nav a {
 
 .header{
     background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 30px 0px 100px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .profile-pic{
-    width: 500px;
+    width: 400px;
 }
 
+.banner-greeting{
+    font-size: 40px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+.banner-content{
+    max-width: 500px;
+}
+
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about section style */
+
+.about{
+    margin-top: 70px;
+    background-color: #FFF8F3;
+    padding: 8px 17px;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+
+.section-description{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    margin-bottom: 0px;
+}
+
+.info-description{
+    margin-top: 5px;
+}
 
 
 
